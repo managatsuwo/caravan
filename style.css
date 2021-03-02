@@ -1,0 +1,59 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  /* 横幅全部高さ120px背景赤 */
+  width: 100%;
+  height: 120px;
+  background-color: red;
+}
+.header-top {
+  /* ヘッダーの上の方 */
+  width: 100%;
+  height: 70px;
+  background-color: hotpink;
+}
+.header-bottom {
+  /* ヘッダーの下の方 */
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
+.main-visual {
+  /* 横幅全部高さ300px背景オレンジ */
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+}
+.main-visual-content {
+  /* メインビジュアルの左の方 */
+  width: 350px;
+  height: 300px;
+  background-color: gold;
+}
+.main {
+  /*  */
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.blog {
+  width: 600px;
+  height: 600px;
+  background-color: limegreen;
+}
+.sidebar {
+  width: 240px;
+  height: 600px;
+  background-color: palegreen;
+}
+.footer {
+  /* 横幅全部高さ120px背景青 */
+  width: 100%;
+  height: 120px;
+  background-color: blue;
+}
